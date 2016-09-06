@@ -1,0 +1,35 @@
+{
+  "name": "clannad-sdk",
+  "version": "0.0.2",
+  "description": "back-end SDK for clannad",
+  "main": "app.js",
+  "keywords": [
+    "clannad",
+    "SDK"
+  ],
+  "author": "youngerheart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youngerheart/clannad-sdk/issues"
+  },
+  "homepage": "https://github.com/youngerheart/clannad-sdk",
+  "dependencies": {
+    "request-promise": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.10.4",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-async-to-generator": "^6.7.4",
+    "babel-plugin-transform-runtime": "^6.6.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.7.2",
+    "cfork": "^1.5.1",
+    "chai": "^3.5.0",
+    "co-body": "^4.2.0",
+    "koa": "^2.0.0",
+    "koa-router": "^7.0.1",
+    "nodemon": "^1.9.1"
+  }
+}
