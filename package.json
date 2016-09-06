@@ -1,6 +1,6 @@
 {
   "name": "clannad-sdk",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "back-end SDK for clannad",
   "main": "index.js",
   "keywords": [
@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/youngerheart/clannad-sdk",
   "dependencies": {
+    "request": "^2.74.0",
     "request-promise": "^4.1.0"
   },
   "devDependencies": {
