@@ -1,3 +1,5 @@
+[![NPM version](https://img.shields.io/npm/v/clannad-sdk.svg)](https://www.npmjs.com/package/clannad-sdk) [![Downloads](https://img.shields.io/npm/dm/clannad-sdk.svg)](http://badge.fury.io/js/clannad-sdk)
+
 # clannad-sdk
 back-end HTTP SDK for clannad
 
