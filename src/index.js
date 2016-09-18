@@ -37,11 +37,13 @@ class ClannadSDK {
       json: true
     }).catch(parseError);
   }
-  count({tableName, token, selector} = {}) {
+  count({tableName, token, params} = {}) {
     return rp.get({
       url: `${this.url}/${tableName}/count`,
       headers: {'X-Token': this.token || token},
-      qs: getQS(selector),
+      qs: {
+        params: JSON.stringify(params)
+      },
       json: true
     }).catch(parseError);
   }

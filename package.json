@@ -1,6 +1,6 @@
 {
   "name": "clannad-sdk",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "back-end SDK for clannad",
   "main": "index.js",
   "keywords": [

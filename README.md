@@ -47,16 +47,16 @@ const result = await cs.list({tableName, token, selector});
 | limit | Number | default 30 (only list could use) |
 | sort | String | sort by one field, default `createdAt` (only list could use) |
 | asc | Boolean | default desc，you could set `true` to get asc (only list could use) |
-| populate | Object | for mongo populate handle, such as `{"path": "field1","select": "name",populete:{"path":...}}` (count is unuseful) |
-| select | Object | for select fields, such as `["field1","field2",...]` (count is unuseful) |
-| params | Object | for mongoose conditions, such as `{"field1":{"$gte":21},"field2":"duang",...}` (count is unuseful) |
+| populate | Object | for mongo populate handle, such as `{"path": "field1","select": "name",populete:{"path":...}}` |
+| select | Object | for select fields, such as `["field1","field2",...]` |
+| params | Object | for mongoose conditions, such as `{"field1":{"$gte":21},"field2":"duang",...}` |
 
 response: `200 OK [{_id: ..., ...}, ...]`
 
 #### cs.count
 
 ```
-const result = await cs.count({tableName, token, selector});
+const result = await cs.count({tableName, token, params});
 ```
 
 response: `200 OK {count}`
