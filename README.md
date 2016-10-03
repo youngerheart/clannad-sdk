@@ -72,7 +72,7 @@ response: `200 OK {_id: ..., ...}`
 #### cs.aggregate
 
 ```
-const result = await cs.detail({tableName, token, params, group, sort});
+const result = await cs.aggregate({tableName, token, params, group, sort});
 ```
 
 | field | type | descption |
